@@ -1,0 +1,182 @@
+body
+{
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+p {
+    color: #8f8f8f;
+}
+.container-fluid {
+    padding: 3% 15% 15% 15%;
+
+}
+
+
+.btn1 {
+    margin-right: 20px;
+}
+
+.phone-img {
+    
+    transform: rotate(30deg);
+    position: absolute;
+    right: 25%;
+
+}
+
+/* Navbar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Montserrat-light", sans-serif;
+    font-size: 1.2rem;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.title-col {
+    padding: 4%;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 5% 0 0;
+}
+
+/* Features Section */
+
+#features {
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+
+
+}
+.features-col {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.icon {
+    margin-bottom: 1.5rem;
+    color: #ef8172;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-images {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/* cta  */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer {
+    background-color: white;
+    padding: 7%;
+    text-align: center;
+}
+
+.footer-icon {
+    margin: 1rem;
+}
+/* media queries */
+
+@media (max-width: 1256px) {
+    #title {
+        text-align: center;
+    }
+
+    .phone-img {
+    
+        transform: rotate(0);
+        position: static;
+        right: 25%;
+    
+    }
+    .nav-item{
+        text-align: left;
+    }
+}
